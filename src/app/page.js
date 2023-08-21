@@ -1,5 +1,6 @@
 import Articulos from '@/app/articulos'
 import Comision from '@/app/comision'
+import Carusel from '@/app/carusel'
 
 
 
@@ -8,7 +9,7 @@ export default function Page(){
     <>
   
       <div className="bg-white px-5 py-5">
-        
+        <Carusel/>
         <div className='text-center'>
           <h1 className="articulos">Sobre Nosotros</h1>
           <div className='text-justify py-5'>

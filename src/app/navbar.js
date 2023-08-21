@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+
 export default function Navbar(){
     return (
         <>
@@ -33,15 +34,26 @@ export default function Navbar(){
                         <a href="/" className="block px-5 py-2 hover:bg-yellow-700 rounded-lg ">Licenciatura en Administracion Rural</a>
                       </li>
                       <li>
-                        <a href="/" className="block px-5 py-2 hover:bg-yellow-700 rounded-lg">Tecnicatura Universitaria en Programacion</a>
+                        <a href="/" className="block px-5 py-2 hover:bg-yellow-500 rounded-lg">Tecnicatura Universitaria en Programacion</a>
                       </li>
                       
                     </ul>
                   </div>
-                  <a href="/" className="text-gray-300 hover:text-yellow-500">Feria de Apuntes</a>
-                  <a href="/" className="text-gray-300 hover:text-yellow-500">Mesa de Examenes</a>
-                  <a href="/Documentos" className="text-gray-300 hover:text-yellow-500">Documentos</a>
-                  <a href="/" className="text-gray-300 hover:text-yellow-500">Sitio de Interes</a>
+                  <button className="text-gray-300 hover:text-yellow-500 focus:outline-none py-0">
+                      <Link href="/Feria">Feria de Apuntes</Link>
+                  </button>
+                  <button className="text-gray-300 hover:text-yellow-500 focus:outline-none py-0">
+                      <Link href="/Mesas">Mesa de Examenes</Link>
+                      
+                  </button>
+                  <button className="text-gray-300 hover:text-yellow-500 focus:outline-none py-0">
+                      <Link href="/Documentos">Documentos</Link>
+                      
+                  </button>
+                  <button className="text-gray-300 hover:text-yellow-500 focus:outline-none py-0">
+                      <Link href="/Sitio">Sitio de Interes</Link>
+                      
+                  </button>
                 </div>
               </div>
             </div>

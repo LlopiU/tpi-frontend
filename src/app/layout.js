@@ -34,6 +34,9 @@ export default function RootLayout({ children }) {
             <div>
               <h1 className="font-montserrat text-3xl font-semibold tracking-wide py-2">Autoridades</h1>
             </div>
+            <div>
+              
+            </div>
           </div>
         </div>
         <Footer/>
