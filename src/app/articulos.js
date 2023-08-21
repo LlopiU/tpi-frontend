@@ -3,7 +3,7 @@ export default function Articulos() {
   return (
     <>
       <div>
-        <h1 className="font-montserrat text-3xl font-semibold tracking-wide">Articulos</h1>
+        <h1 className="font-montserrat text-3xl font-semibold tracking-wide text-center">Articulos</h1>
         <div class="grid-cols-1 sm:grid md:grid-cols-3 ">
           <div
             class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
@@ -18,7 +18,7 @@ export default function Articulos() {
                 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
                 Card title
               </h5>
-              <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+              <p class="mb-4 text-xs text-neutral-600 dark:text-neutral-200">
                 This is a longer card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
@@ -38,7 +38,7 @@ export default function Articulos() {
                 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
                 Card title
               </h5>
-              <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+              <p class="mb-4 text-xs text-neutral-600 dark:text-neutral-200">
                 This is a longer card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
@@ -58,7 +58,7 @@ export default function Articulos() {
                 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
                 Card title
               </h5>
-              <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+              <p class="mb-4 text-xs text-neutral-600 dark:text-neutral-200">
                 This is a longer card with supporting text below as a natural
                 lead-in to additional content.
               </p>
@@ -77,12 +77,14 @@ export default function Articulos() {
                 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
                 Card title
               </h5>
-              <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+              <p class="mb-4 text-xs text-neutral-600 dark:text-neutral-200">
                 This is a longer card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
               </p>
             </div>
+
+            
         </div>
       </div>
       </div>
