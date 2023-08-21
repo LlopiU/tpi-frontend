@@ -16,7 +16,7 @@ export default function Comision(){
                   <div class="text-center">
                     <img
                       src="https://tecdn.b-cdn.net/img/new/avatars/5.webp"
-                      class="mx-auto mb-4 w-32 rounded-lg"
+                      class="mx-auto mb-4 w-32 rounded-lg max-w-xs transition duration-300 ease-in-out hover:scale-110"
                       alt="Avatar" />
                     <h5 class="mb-2 text-xl font-medium leading-tight">Ana Belen Arocha</h5>
                     <p class="text-neutral-500 dark:text-neutral-400">Presidente</p>
@@ -26,7 +26,7 @@ export default function Comision(){
                   <div class="text-center">
                     <img
                       src="https://tecdn.b-cdn.net/img/new/avatars/5.webp"
-                      class="mx-auto mb-4 w-32 rounded-lg"
+                      class="mx-auto mb-4 w-32 rounded-lg max-w-xs transition duration-300 ease-in-out hover:scale-110"
                       alt="Avatar" />
                     <h5 class="mb-2 text-xl font-medium leading-tight">Karen</h5>
                     <p class="text-neutral-500 dark:text-neutral-400">Sec. General</p>
@@ -36,9 +36,9 @@ export default function Comision(){
                    <div class="text-center">
                       <img
                         src="https://tecdn.b-cdn.net/img/new/avatars/5.webp"
-                        class="mx-auto mb-4 w-32 rounded-lg"
+                        class="mx-auto mb-4 w-32 rounded-lg max-w-xs transition duration-300 ease-in-out hover:scale-110"
                         alt="Avatar" />
-                      <h5 class="mb-2 text-xl font-medium leading-tight">John Doe</h5>
+                      <h5 class="mb-2 text-xl font-medium leading-tight">Sebastian </h5>
                       <p class="text-neutral-500 dark:text-neutral-400">Sec. de Finanzas</p>
                     </div>
                   {/* Sec Redes */}
@@ -46,7 +46,7 @@ export default function Comision(){
                   <div class="text-center">
                     <img
                       src="https://tecdn.b-cdn.net/img/new/avatars/5.webp"
-                      class="mx-auto mb-4 w-32 rounded-lg"
+                      class="mx-auto mb-4 w-32 rounded-lg max-w-xs transition duration-300 ease-in-out hover:scale-110"
                       alt="Avatar" />
                     <h5 class="mb-2 text-xl font-medium leading-tight">Sofia Leguizamon</h5>
                     <p class="text-neutral-500 dark:text-neutral-400">Sec. de Prensa y Redes Sociales</p>
@@ -56,9 +56,9 @@ export default function Comision(){
                   <div class="text-center">
                     <img
                       src="https://tecdn.b-cdn.net/img/new/avatars/5.webp"
-                      class="mx-auto mb-4 w-32 rounded-lg"
+                      class="mx-auto mb-4 w-32 rounded-lg max-w-xs transition duration-300 ease-in-out hover:scale-110"
                       alt="Avatar" />
-                    <h5 class="mb-2 text-xl font-medium leading-tight">Leandro Rodriguez</h5>
+                    <h5 class="mb-2 text-xl font-medium leading-tight">Leandro Maldonado</h5>
                     <p class="text-neutral-500 dark:text-neutral-400">Sec. de Bienestar Estudiantil</p>
                   </div>
                   {/* Sec Deportes */}
@@ -66,7 +66,7 @@ export default function Comision(){
                   <div class="text-center">
                     <img
                       src="https://tecdn.b-cdn.net/img/new/avatars/5.webp"
-                      class="mx-auto mb-4 w-32 rounded-lg"
+                      class="mx-auto mb-4 w-32 rounded-lg max-w-xs transition duration-300 ease-in-out hover:scale-110"
                       alt="Avatar" />
                     <h5 class="mb-2 text-xl font-medium leading-tight">Natalia Aguero</h5>
                     <p class="text-neutral-500 dark:text-neutral-400">Sec. de Cultura y Deportes</p>
@@ -76,9 +76,9 @@ export default function Comision(){
                   <div class="text-center">
                     <img
                       src="https://tecdn.b-cdn.net/img/new/avatars/5.webp"
-                      class="mx-auto mb-4 w-32 rounded-lg"
+                      class="mx-auto mb-4 w-32 rounded-lg max-w-xs transition duration-300 ease-in-out hover:scale-110"
                       alt="Avatar" />
-                    <h5 class="mb-2 text-xl font-medium leading-tight">Claudia Dure</h5>
+                    <h5 class="mb-2 text-xl font-medium leading-tight">Juliana Saez</h5>
                     <p class="text-neutral-500 dark:text-neutral-400">Sec. de Materias Basicas</p>
                   </div>
                   {/* Sec Quimica */}
@@ -86,7 +86,7 @@ export default function Comision(){
                   <div class="text-center">
                     <img
                       src="https://tecdn.b-cdn.net/img/new/avatars/5.webp"
-                      class="mx-auto mb-4 w-32 rounded-lg"
+                      class="mx-auto mb-4 w-32 rounded-lg max-w-xs transition duration-300 ease-in-out hover:scale-110"
                       alt="Avatar" />
                     <h5 class="mb-2 text-xl font-medium leading-tight">Leonardo Korol</h5>
                     <p class="text-neutral-500 dark:text-neutral-400">Sec. de Ingenieria Quimica</p>
@@ -97,7 +97,7 @@ export default function Comision(){
                   <div class="text-center">
                     <img
                       src="https://tecdn.b-cdn.net/img/new/avatars/5.webp"
-                      class="mx-auto mb-4 w-32 rounded-lg"
+                      class="mx-auto mb-4 w-32 rounded-lg max-w-xs transition duration-300 ease-in-out hover:scale-110"
                       alt="Avatar" />
                     <h5 class="mb-2 text-xl font-medium leading-tight">Ulises Llopi</h5>
                     <p class="text-neutral-500 dark:text-neutral-400">Sec. de Ingenieria en Sistemas de Informacion</p>
@@ -107,9 +107,9 @@ export default function Comision(){
                   <div class="text-center">
                     <img
                       src="https://tecdn.b-cdn.net/img/new/avatars/5.webp"
-                      class="mx-auto mb-4 w-32 rounded-lg"
+                      class="mx-auto mb-4 w-32 rounded-lg max-w-xs transition duration-300 ease-in-out hover:scale-110"
                       alt="Avatar" />
-                    <h5 class="mb-2 text-xl font-medium leading-tight">Meli</h5>
+                    <h5 class="mb-2 text-xl font-medium leading-tight">Melina Ambroggio</h5>
                     <p class="text-neutral-500 dark:text-neutral-400">Sec. de Ingenieria en Electromecanica</p>
                   </div>
                   {/* Sec Lar */}
@@ -117,7 +117,7 @@ export default function Comision(){
                   <div class="text-center">
                     <img
                       src="https://tecdn.b-cdn.net/img/new/avatars/5.webp"
-                      class="mx-auto mb-4 w-32 rounded-lg"
+                      class="mx-auto mb-4 w-32 rounded-lg max-w-xs transition duration-300 ease-in-out hover:scale-110"
                       alt="Avatar" />
                     <h5 class="mb-2 text-xl font-medium leading-tight">Leonel Rister</h5>
                     <p class="text-neutral-500 dark:text-neutral-400">Sec. de Licenciatura en Administracion Rural</p>
@@ -127,7 +127,7 @@ export default function Comision(){
                   <div class="text-center">
                     <img
                       src="https://tecdn.b-cdn.net/img/new/avatars/5.webp"
-                      class="mx-auto mb-4 w-32 rounded-lg"
+                      class="mx-auto mb-4 w-32 rounded-lg max-w-xs transition duration-300 ease-in-out hover:scale-110"
                       alt="Avatar" />
                     <h5 class="mb-2 text-xl font-medium leading-tight">Sergio Rach</h5>
                     <p class="text-neutral-500 dark:text-neutral-400">Sec. de Tecnicatura Universitaria en Programacion</p>

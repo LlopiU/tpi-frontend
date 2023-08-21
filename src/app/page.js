@@ -5,6 +5,8 @@ import Carusel from '@/app/carusel'
 
 
 export default function Page(){
+
+  
   return (
     <>
   
@@ -25,6 +27,9 @@ export default function Page(){
         <div>
           <Articulos/>
           <Comision/>
+          <div>
+  
+</div>
         
         </div>
        </div>
