@@ -13,7 +13,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-     
+      <script
+        type="text/javascript"
+        src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js">
+      </script>
       <body className={inter.className}>
         <Navbar/>
         <div className="flex mt-10">
@@ -34,8 +37,54 @@ export default function RootLayout({ children }) {
             <div>
               <h1 className="font-montserrat text-3xl font-semibold tracking-wide py-2">Autoridades</h1>
             </div>
-            <div>
+            <div className='text-center justify-center items-center '>
+            <ul class="w-90">
+              <li
+                class="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
+                <h2 className='font-bold'>DECANO</h2>
+                Ing. Jorge A. De Pedro decano@frre.utn.edu.ar
+              </li>
+              <li
+                class="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
+                <h2 className='font-bold'>VICEDECANO</h2>
+               Ing. Fernando Soria vicedecano@frre.utn.edu.ar
+              </li>
+              <li
+                class="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
+                <h2 className='font-bold'>SECRETARIA DE CIENCIA Y TECNOLOGIA</h2>
+                Ing. Valeria Sandobal Verón scyt@frre.utn.edu.ar
+              </li>
+              <li
+                class="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
+                <h2 className='font-bold'>SECRETARIO ACADEMICO</h2>
+                Dr. Ing. Walter Gustavo Morales wmorales@frre.utn.edu.ar
+              </li>
+              <li
+                class="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
+                <h2 className='font-bold'>SECRETARIA DE ASUNTOS UNIVERSITARIOS</h2>
+                Ing. Noelia Pinto sau@frre.utn.edu.ar
+              </li>
+              <li
+                class="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
+                <h2 className='font-bold'>SECRETARIO ADMINISTRATIVO</h2>
+                Lic. Oscar Masín secadminist@frre.utn.e
+              </li>
+              <li
+                class="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
+                <h2 className='font-bold'>SECRETARIA INFRAESTRUCTURA</h2>
+                Ing. Mirta Lagrost mlagrost@free.utn.edu.ar
+              </li>
+              <li
+                class="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
+                <h2 className='font-bold'>SECRETARIA DE EXTENSION UNIVERSITARIA</h2>
+                Ing. Ana C. Orcola extuniv@frre.utn.edu.ar
+              </li>
               
+              <li class="w-full py-4">
+                <h2 className='font-bold'>SUBSECRETARIA DE RELACIONES INTERNACIONALES</h2>
+                Ing. Gabriela Kupervaser internacionales@frre.utn.edu.ar</li>
+            </ul>
+            
             </div>
           </div>
         </div>

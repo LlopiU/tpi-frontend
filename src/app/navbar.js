@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-
 export default function Navbar(){
     return (
         <>
@@ -8,10 +7,10 @@ export default function Navbar(){
           <nav className="bg-gray-800">
             <div className="container mx-auto px-6 py-3">
               <div className="flex items-center justify-between ">
-                <a href="/">
-                <img src="./cetico.jpg" alt="logo" className="h-10 w-full rounded-full" />
+                <a href="/" className="px-0 py-0">
+                <img src="./cetico.jpg" alt="logo" className="h-10 w-15 rounded-full" />
                 </a>
-                <div className="flex space-x-4 text-sm">
+                <div className="flex space-x-4 text-base">
                   <a href="/" className="text-gray-300 hover:text-yellow-500">Inicio</a>
                   
                 <div className="relative group">
@@ -24,6 +23,7 @@ export default function Navbar(){
                       <li>
                         <a href="/" className="block px-5 py-2 hover:bg-yellow-700 rounded-lg ">Ingenieria Química</a>
                       </li>
+                      
                       <li>
                         <a href="/" className="block px-5 py-2 hover:bg-yellow-700 rounded-lg ">Ingenieria en Sistemas</a>
                       </li>
@@ -54,6 +54,7 @@ export default function Navbar(){
                       <Link href="/Sitio">Sitio de Interes</Link>
                       
                   </button>
+
                 </div>
               </div>
             </div>

@@ -13,224 +13,127 @@ export default function Comision(){
 
                 <div className="grid gap-6 text-center md:grid-cols-3">
                   {/* Presidente */}
-                  <div>
-                    <div className="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30">
-                      <div className="h-28 overflow-hidden rounded-t-lg bg-[#ff4238]"></div>
-                      <div className="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-                        <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="Avatar" />
-                      </div>
-                      <div className="p-6">
-                        <h4 className="mb-4 text-2xl font-semibold">Ana Belen Arocha</h4>
-                        <hr />
-                        <p className="mt-4 text-neutral-700 dark:text-neutral-300">
-                          
-                          Presidente
-                        </p>
-                      </div>
-                    </div>
+                  <div class="text-center">
+                    <img
+                      src="https://tecdn.b-cdn.net/img/new/avatars/5.webp"
+                      class="mx-auto mb-4 w-32 rounded-lg"
+                      alt="Avatar" />
+                    <h5 class="mb-2 text-xl font-medium leading-tight">Ana Belen Arocha</h5>
+                    <p class="text-neutral-500 dark:text-neutral-400">Presidente</p>
                   </div>
 
                   {/* Sec General */}
-                  <div>
-                    <div className="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30">
-                      <div className="h-28 overflow-hidden rounded-t-lg bg-[#882778]"></div>
-                      <div className="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-                        <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp" alt="Avatar" />
-                      </div>
-                      <div className="p-6">
-                        <h4 className="mb-4 text-2xl font-semibold">Lisa Cudrow</h4>
-                        <hr />
-                        <p className="mt-4 text-neutral-700 dark:text-neutral-300">
-                          
-                        Sec. General
-                        </p>
-                      </div>
-                    </div>
+                  <div class="text-center">
+                    <img
+                      src="https://tecdn.b-cdn.net/img/new/avatars/5.webp"
+                      class="mx-auto mb-4 w-32 rounded-lg"
+                      alt="Avatar" />
+                    <h5 class="mb-2 text-xl font-medium leading-tight">Karen</h5>
+                    <p class="text-neutral-500 dark:text-neutral-400">Sec. General</p>
                   </div>
                    {/* Sec Finanzas */}
 
-                  <div>
-                    <div className="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30">
-                      <div className="h-28 overflow-hidden rounded-t-lg bg-[#2fc6c6]"></div>
-                      <div className="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-                        <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp" alt="Avatar" />
-                      </div>
-                      <div className="p-6">
-                        <h4 className="mb-4 text-2xl font-semibold">Lisa Cudrow</h4>
-                        <hr />
-                        <p className="mt-4 text-neutral-700 dark:text-neutral-300">
-                          
-                        Sec. de Finanzas
-                        </p>
-                      </div>
+                   <div class="text-center">
+                      <img
+                        src="https://tecdn.b-cdn.net/img/new/avatars/5.webp"
+                        class="mx-auto mb-4 w-32 rounded-lg"
+                        alt="Avatar" />
+                      <h5 class="mb-2 text-xl font-medium leading-tight">John Doe</h5>
+                      <p class="text-neutral-500 dark:text-neutral-400">Sec. de Finanzas</p>
                     </div>
-                  </div>
                   {/* Sec Redes */}
 
-                  <div>
-                    <div className="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30">
-                      <div className="h-28 overflow-hidden rounded-t-lg bg-[#ff41f5]"></div>
-                      <div className="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-                        <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp" alt="Avatar" />
-                      </div>
-                      <div className="p-6">
-                        <h4 className="mb-4 text-2xl font-semibold">Sofia Leguizamon</h4>
-                        <hr />
-                        <p className="mt-4 text-neutral-700 dark:text-neutral-300">
-                          
-                        Sec. de Prensa y Redes Sociales
-                        </p>
-                      </div>
-                    </div>
+                  <div class="text-center">
+                    <img
+                      src="https://tecdn.b-cdn.net/img/new/avatars/5.webp"
+                      class="mx-auto mb-4 w-32 rounded-lg"
+                      alt="Avatar" />
+                    <h5 class="mb-2 text-xl font-medium leading-tight">Sofia Leguizamon</h5>
+                    <p class="text-neutral-500 dark:text-neutral-400">Sec. de Prensa y Redes Sociales</p>
                   </div>
                   {/* Sec Bienestar */}
 
-                  <div>
-                    <div className="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30">
-                      <div className="h-28 overflow-hidden rounded-t-lg bg-[#f6ca3a]"></div>
-                      <div className="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-                        <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp" alt="Avatar" />
-                      </div>
-                      <div className="p-6">
-                        <h4 className="mb-4 text-2xl font-semibold">Leandro Rodriguez</h4>
-                        <hr />
-                        <p className="mt-4 text-neutral-700 dark:text-neutral-300">
-                          
-                        Sec. de Bienestar Estudiantil
-                        </p>
-                      </div>
-                    </div>
+                  <div class="text-center">
+                    <img
+                      src="https://tecdn.b-cdn.net/img/new/avatars/5.webp"
+                      class="mx-auto mb-4 w-32 rounded-lg"
+                      alt="Avatar" />
+                    <h5 class="mb-2 text-xl font-medium leading-tight">Leandro Rodriguez</h5>
+                    <p class="text-neutral-500 dark:text-neutral-400">Sec. de Bienestar Estudiantil</p>
                   </div>
                   {/* Sec Deportes */}
 
-                  <div>
-                    <div className="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30">
-                      <div className="h-28 overflow-hidden rounded-t-lg bg-[#9c2154]"></div>
-                      <div className="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-                        <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp" alt="Avatar" />
-                      </div>
-                      <div className="p-6">
-                        <h4 className="mb-4 text-2xl font-semibold">Natalia Aguero</h4>
-                        <hr />
-                        <p className="mt-4 text-neutral-700 dark:text-neutral-300">
-                          
-                        Sec. de Cultura y Deportes
-                        </p>
-                      </div>
-                    </div>
+                  <div class="text-center">
+                    <img
+                      src="https://tecdn.b-cdn.net/img/new/avatars/5.webp"
+                      class="mx-auto mb-4 w-32 rounded-lg"
+                      alt="Avatar" />
+                    <h5 class="mb-2 text-xl font-medium leading-tight">Natalia Aguero</h5>
+                    <p class="text-neutral-500 dark:text-neutral-400">Sec. de Cultura y Deportes</p>
                   </div>
                   {/* Sec Basicas */}
 
-                  <div>
-                    <div className="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30">
-                      <div className="h-28 overflow-hidden rounded-t-lg bg-[#7a3f3c]"></div>
-                      <div className="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-                        <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp" alt="Avatar" />
-                      </div>
-                      <div className="p-6">
-                        <h4 className="mb-4 text-2xl font-semibold">Lisa Cudrow</h4>
-                        <hr />
-                        <p className="mt-4 text-neutral-700 dark:text-neutral-300">
-                          
-                        Sec. de Materias Basicas
-                        </p>
-                      </div>
-                    </div>
+                  <div class="text-center">
+                    <img
+                      src="https://tecdn.b-cdn.net/img/new/avatars/5.webp"
+                      class="mx-auto mb-4 w-32 rounded-lg"
+                      alt="Avatar" />
+                    <h5 class="mb-2 text-xl font-medium leading-tight">Claudia Dure</h5>
+                    <p class="text-neutral-500 dark:text-neutral-400">Sec. de Materias Basicas</p>
                   </div>
                   {/* Sec Quimica */}
 
-                  <div>
-                    <div className="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30">
-                      <div className="h-28 overflow-hidden rounded-t-lg bg-[#a3ae2b]"></div>
-                      <div className="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-                        <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp" alt="Avatar" />
-                      </div>
-                      <div className="p-6">
-                        <h4 className="mb-4 text-2xl font-semibold">Leonardo Korol</h4>
-                        <hr />
-                        <p className="mt-4 text-neutral-700 dark:text-neutral-300">
-                          
-                        Sec. de Ingenieria Quimica
-                        </p>
-                      </div>
-                    </div>
+                  <div class="text-center">
+                    <img
+                      src="https://tecdn.b-cdn.net/img/new/avatars/5.webp"
+                      class="mx-auto mb-4 w-32 rounded-lg"
+                      alt="Avatar" />
+                    <h5 class="mb-2 text-xl font-medium leading-tight">Leonardo Korol</h5>
+                    <p class="text-neutral-500 dark:text-neutral-400">Sec. de Ingenieria Quimica</p>
                   </div>
+                  
                   {/* Sec ISI */}
 
-                  <div>
-                    <div className="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30">
-                      <div className="h-28 overflow-hidden rounded-t-lg bg-[#3954ef]"></div>
-                      <div className="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-                        <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp" alt="Avatar" />
-                      </div>
-                      <div className="p-6">
-                        <h4 className="mb-4 text-2xl font-semibold">Ulises Llopi</h4>
-                        <hr />
-                        <p className="mt-4 text-neutral-700 dark:text-neutral-300">
-                          
-                        Sec. de Ingenieria en Sistemas de Informacion
-                        </p>
-                      </div>
-                    </div>
+                  <div class="text-center">
+                    <img
+                      src="https://tecdn.b-cdn.net/img/new/avatars/5.webp"
+                      class="mx-auto mb-4 w-32 rounded-lg"
+                      alt="Avatar" />
+                    <h5 class="mb-2 text-xl font-medium leading-tight">Ulises Llopi</h5>
+                    <p class="text-neutral-500 dark:text-neutral-400">Sec. de Ingenieria en Sistemas de Informacion</p>
                   </div>
                   {/* Sec IEM */}
 
-                  <div>
-                    <div className="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30">
-                      <div className="h-28 overflow-hidden rounded-t-lg bg-[#7a81a8]"></div>
-                      <div className="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-                        <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp" alt="Avatar" />
-                      </div>
-                      <div className="p-6">
-                        <h4 className="mb-4 text-2xl font-semibold">Meli</h4>
-                        <hr />
-                        <p className="mt-4 text-neutral-700 dark:text-neutral-300">
-                          
-                        Sec. de Ingenieria en Electromecanica
-                        </p>
-                      </div>
-                    </div>
+                  <div class="text-center">
+                    <img
+                      src="https://tecdn.b-cdn.net/img/new/avatars/5.webp"
+                      class="mx-auto mb-4 w-32 rounded-lg"
+                      alt="Avatar" />
+                    <h5 class="mb-2 text-xl font-medium leading-tight">Meli</h5>
+                    <p class="text-neutral-500 dark:text-neutral-400">Sec. de Ingenieria en Electromecanica</p>
                   </div>
                   {/* Sec Lar */}
 
-                  <div>
-                    <div className="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30">
-                      <div className="h-28 overflow-hidden rounded-t-lg bg-[#3dfc67]"></div>
-                      <div className="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-                        <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp" alt="Avatar" />
-                      </div>
-                      <div className="p-6">
-                        <h4 className="mb-4 text-2xl font-semibold">Leonel Rister</h4>
-                        <hr />
-                        <p className="mt-4 text-neutral-700 dark:text-neutral-300">
-                          
-                        Sec. de Licenciatura en Administracion Rural.
-                        </p>
-                      </div>
-                    </div>
+                  <div class="text-center">
+                    <img
+                      src="https://tecdn.b-cdn.net/img/new/avatars/5.webp"
+                      class="mx-auto mb-4 w-32 rounded-lg"
+                      alt="Avatar" />
+                    <h5 class="mb-2 text-xl font-medium leading-tight">Leonel Rister</h5>
+                    <p class="text-neutral-500 dark:text-neutral-400">Sec. de Licenciatura en Administracion Rural</p>
                   </div>
 
                   {/* Sec TUP */}
-                  <div>
-                    <div className="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30">
-                      <div className="h-28 overflow-hidden rounded-t-lg bg-[#6d5b98]"></div>
-                      <div className="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-                        <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp" alt="Avatar" />
-                      </div>
-                      <div className="p-6">
-                        <h4 className="mb-4 text-2xl font-semibold">Sergio Rach</h4>
-                        <hr />
-                        <p className="mt-4 text-neutral-700 dark:text-neutral-300">
-                          
-                          Sec. de Tecnicatura Universitaria en Programacion
-                        </p>
-                      </div>
-                    </div>
+                  <div class="text-center">
+                    <img
+                      src="https://tecdn.b-cdn.net/img/new/avatars/5.webp"
+                      class="mx-auto mb-4 w-32 rounded-lg"
+                      alt="Avatar" />
+                    <h5 class="mb-2 text-xl font-medium leading-tight">Sergio Rach</h5>
+                    <p class="text-neutral-500 dark:text-neutral-400">Sec. de Tecnicatura Universitaria en Programacion</p>
                   </div>
                 </div>
             </section>
-
-        
         </>
 
     )
