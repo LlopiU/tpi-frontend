@@ -1,15 +1,15 @@
 import Articulos from '@/app/articulos'
 import Comision from '@/app/comision'
 import Carusel from '@/app/carusel'
-
-
+import Script from 'next/script'
 
 export default function Page(){
 
   
   return (
     <>
-  
+    <Script src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js" />
+    <main>
       <div className="bg-white px-5 py-5">
         <Carusel/>
         <div className='text-center'>
@@ -28,11 +28,13 @@ export default function Page(){
           <Articulos/>
           <Comision/>
           <div>
-  
-</div>
+        
+          </div>
         
         </div>
        </div>
+    </main>
+
     </>
   )
 }

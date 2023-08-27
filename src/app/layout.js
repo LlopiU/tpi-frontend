@@ -14,10 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <script
-        type="text/javascript"
-        src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js">
-      </script>
+    
       
       <body className={inter.className}>
         <Navbar/>

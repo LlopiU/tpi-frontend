@@ -6,10 +6,10 @@ export default function Articulos() {
         <h1 className="font-montserrat text-3xl font-semibold tracking-wide text-center">Articulos</h1>
         <div class="grid-cols-1 sm:grid md:grid-cols-4 ">
           <div
-            class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+            class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0 max-w-xs transition duration-300 ease-in-out hover:scale-110">
             <a href="#!">
               <img
-                class="rounded-t-lg"
+                class="rounded-t-lg "
                 src="https://tecdn.b-cdn.net/img/new/standard/city/041.webp"
                 alt="Hollywood Sign on The Hill" />
             </a>
@@ -24,7 +24,7 @@ export default function Articulos() {
             </div>
           </div>
           <div
-            class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+            class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0 max-w-xs transition duration-300 ease-in-out hover:scale-110">
             <a href="#!">
               <img
                 class="rounded-t-lg"
@@ -42,7 +42,7 @@ export default function Articulos() {
             </div>
           </div>
           <div
-            class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+            class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0 max-w-xs transition duration-300 ease-in-out hover:scale-110">
             <a href="#!">
               <img
                 class="rounded-t-lg"
@@ -60,7 +60,7 @@ export default function Articulos() {
             </div>
           </div>
           <div
-            class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+            class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0 max-w-xs transition duration-300 ease-in-out hover:scale-110">
             <a href="#!">
               <img
                 class="rounded-t-lg"
@@ -78,7 +78,7 @@ export default function Articulos() {
             </div>
         </div>
         <div
-            class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+            class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0 max-w-xs transition duration-300 ease-in-out hover:scale-110">
             <a href="#!">
               <img
                 class="rounded-t-lg"
@@ -96,7 +96,7 @@ export default function Articulos() {
             </div>
         </div>
         <div
-            class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+            class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0 max-w-xs transition duration-300 ease-in-out hover:scale-110">
             <a href="#!">
               <img
                 class="rounded-t-lg"
@@ -114,7 +114,7 @@ export default function Articulos() {
             </div>
         </div>
         <div
-            class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+            class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0 max-w-xs transition duration-300 ease-in-out hover:scale-110">
             <a href="#!">
               <img
                 class="rounded-t-lg"
@@ -132,7 +132,7 @@ export default function Articulos() {
             </div>
         </div>
         <div
-            class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+            class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0 max-w-xs transition duration-300 ease-in-out hover:scale-110">
             <a href="#!">
               <img
                 class="rounded-t-lg"

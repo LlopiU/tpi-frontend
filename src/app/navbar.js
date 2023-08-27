@@ -8,7 +8,7 @@ export default function Navbar(){
             <div className="container mx-auto px-6 py-3">
               <div className="flex items-center justify-between ">
                 <a href="/" className="px-0 py-0">
-                <img src="./cetico.jpg" alt="logo" className="h-10 w-15 rounded-full" />
+                <img src="./cetico.jpg" alt="logo" className="h-10 w-15 rounded-full max-w-xs transition duration-300 ease-in-out hover:scale-110" />
                 </a>
                 <div className="flex space-x-4 text-base">
                   <a href="/" className="text-gray-300 hover:text-yellow-500 max-w-xs transition duration-300 ease-in-out hover:scale-110">Inicio</a>
