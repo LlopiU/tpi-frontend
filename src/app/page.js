@@ -1,17 +1,21 @@
 import Articulos from '@/app/articulos'
 import Comision from '@/app/comision'
 import Carusel from '@/app/carusel'
-import Script from 'next/script'
 
+
+export const metadata = {
+  title: 'Cet-Home',
+  description: 'Pagina Principal',
+}
 export default function Page(){
 
   
   return (
     <>
-    <Script src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js" />
     <main>
+    <Carusel/>
       <div className="bg-white px-5 py-5">
-        <Carusel/>
+       
         <div className='text-center'>
           <h1 className="articulos">Sobre Nosotros</h1>
           <div className='text-justify py-5'>

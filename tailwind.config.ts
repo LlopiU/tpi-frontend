@@ -6,7 +6,7 @@ const config: Config = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
     "./src/**/*.{html,js}",
-    "./node_modules/tw-elements/dist/js/**/*.js"
+    "./node_modules/flowbite-react/**/*.js"
   ],
   theme: {
     extend: {
@@ -21,7 +21,7 @@ const config: Config = {
     },
   },
   plugins: [
-    require("tw-elements/dist/plugin.cjs")],
+    require('flowbite/plugin')],
   darkMode: "class"
 }
 export default config
