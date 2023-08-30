@@ -1,8 +1,10 @@
 import './globals.css'
+import "tw-elements/dist/css/tw-elements.min.css"
 import { Inter } from 'next/font/google'
 import Navbar from '@/app/navbar'
 import Footer from '@/app/footer'
 import Script from 'next/script'
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -22,7 +24,7 @@ export default function RootLayout({ children }) {
         <div className="flex mt-10">
 
           <div className="w-3/4 bg-gray-300 p-8">
-            <div className='bg-white p-8'>
+            <div className='bg-white p-8 rounded-lg'>
 
             {children}  
             Columna Izquierda
@@ -89,7 +91,8 @@ export default function RootLayout({ children }) {
           </div>
         </div>
         <Footer/>
-      <Script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></Script>
+        <Script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></Script>
+        <Script type="text/javascript" src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></Script>
       </body>
         
     </html>
