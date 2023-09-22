@@ -9,6 +9,7 @@ const config: Config = {
     "./node_modules/flowbite-react/**/*.js",
     "./node_modules/tw-elements/dist/js/**/*.js",
   ],
+  darkMode: ["class"],
   theme: {
     extend: {
       fontFamily: {
@@ -24,6 +25,6 @@ const config: Config = {
   plugins: [
     require('flowbite/plugin'),
     require("tw-elements/dist/plugin.cjs")],
-  darkMode: "class"
+  
 }
 export default config

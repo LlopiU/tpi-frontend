@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Navbar(){
     return (
         <>
-        <div className="fixed top-0 left-0 w-full z-50 bg-gray-800">
+        <div className="fixed top-0 left-0 w-full z-50 bg-neutral-600 dark:bg-black">
           <nav className="bg-gray-800">
             <div className="container mx-auto px-6 py-3">
               <div className="flex items-center justify-between ">
@@ -13,7 +13,7 @@ export default function Navbar(){
                 <div className="flex space-x-4 text-base">
                   <a href="/" className="text-gray-300 hover:text-yellow-500 max-w-xs transition duration-300 ease-in-out hover:scale-110">Inicio</a>
                   
-                <div className="relative group">
+                <div className="relative group ">
                   
                     <button className="text-gray-300 hover:text-yellow-500 focus:outline-none py-0 max-w-xs transition duration-300 ease-in-out hover:scale-110">
                       <Link href="/Carreras">Carreras</Link>
@@ -60,6 +60,8 @@ export default function Navbar(){
             </div>
           </nav>
   
+        </div>
+        <div className="bg-black">
         </div>
         </>
     )

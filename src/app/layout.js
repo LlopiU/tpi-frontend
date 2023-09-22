@@ -1,6 +1,11 @@
 import './globals.css'
 import "tw-elements/dist/css/tw-elements.min.css"
+
 import { Inter } from 'next/font/google'
+import { ThemeProvider } from "./theme-prodiver"
+import { ThemeSwitcher } from "./components"
+import { switchThemeDuration } from "./constants"
+
 import Navbar from '@/app/navbar'
 import Footer from '@/app/footer'
 import Script from 'next/script'
@@ -13,14 +18,16 @@ export const metadata = {
 }
 
 
-export default function RootLayout({ children }) {
+export default function RootLayout({children}) {
   return (
     <html lang="en">
     <Script src="../path/to/flowbite/dist/flowbite.min.js"></Script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
-      
       <body className={inter.className}>
+      <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <ThemeSwitcher />
         <Navbar/>
+       
         <div className="flex mt-10">
 
           <div className="w-3/4 bg-gray-300 p-8">
@@ -93,6 +100,9 @@ export default function RootLayout({ children }) {
         <Footer/>
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></Script>
         <Script type="text/javascript" src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></Script>
+        
+          <main>{children}</main>
+        </ThemeProvider>
       </body>
         
     </html>
