@@ -2,9 +2,7 @@ import './globals.css'
 import "tw-elements/dist/css/tw-elements.min.css"
 
 import { Inter } from 'next/font/google'
-import { ThemeProvider } from "./theme-prodiver"
-import { ThemeSwitcher } from "./components"
-import { switchThemeDuration } from "./constants"
+
 
 import Navbar from '@/app/navbar'
 import Footer from '@/app/footer'
@@ -24,8 +22,7 @@ export default function RootLayout({children}) {
     <Script src="../path/to/flowbite/dist/flowbite.min.js"></Script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
       <body className={inter.className}>
-      <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <ThemeSwitcher />
+      
         <Navbar/>
        
         <div className="flex mt-10">
@@ -102,7 +99,6 @@ export default function RootLayout({children}) {
         <Script type="text/javascript" src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></Script>
         
           <main>{children}</main>
-        </ThemeProvider>
       </body>
         
     </html>
