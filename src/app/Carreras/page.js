@@ -36,7 +36,7 @@ function Carreras() {
  . Para mayor información, escribir a los correos <a href="mailto:lte@frre.utn.edu.ar" class="hover:bg-gray-100 font-bold">lte@frre.utn.edu.ar</a> o <a href="mailto:lte_utn@yahoo.com.ar" class="hover:bg-gray-100 font-bold">lte_utn@yahoo.com.ar</a>
 .
 
-                La Licenciatura en Producción de Bioimágenes, por otra parte, está destinada a técnicos/as radiólogos/as o título similar otorgado por instituciones reconocidas, con una carga horaria mínima de 1.800 horas reloj y tres años de duración. Está diseñada para formar expertos en la aplicación clínica de las tecnologías involucradas en el diagnóstico por imágenes.
+                La Licenciatura en Producción de Bioimágenes,por otra parte, está destinada a técnicos/as radiólogos/as o título similar otorgado por instituciones reconocidas, con una carga horaria mínima de 1.800 horas reloj y tres años de duración. Está diseñada para formar expertos en la aplicación clínica de las tecnologías involucradas en el diagnóstico por imágenes.
 
                 El formulario de preinscripción se encuentra online en el sitio <a href="https://www.frre.utn.edu.ar/academica/inscripcionclic" class="hover:bg-gray-100 font-bold">www.frre.utn.edu.ar/academica/inscripcionclic</a>. Para mayor información, escribir al correo <a href="mailto:lte_utn@yahoo.com.ar" class="hover:bg-gray-100 font-bold">lpb@frre.utn.edu.ar</a>.</p>
         </div>
