@@ -98,7 +98,7 @@ export default function RootLayout({children}) {
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></Script>
         <Script type="text/javascript" src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></Script>
         
-          <main>{children}</main>
+          
       </body>
         
     </html>

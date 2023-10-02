@@ -12,8 +12,8 @@ export default function Page(){
   
   return (
     <>
-    <main>
-    <Carusel/>
+    <div>
+      <Carusel/>
       <div className="bg-white px-5 py-5">
        
         <div className='text-center'>
@@ -37,7 +37,7 @@ export default function Page(){
         
         </div>
        </div>
-    </main>
+       </div>
 
     </>
   )
