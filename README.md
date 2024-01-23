@@ -4,6 +4,7 @@
 
 --- Tambien esta en Deploy en Vercel -> (https://tpi-frontend.vercel.app/)
 
+--- Trabajo Practico de Digitalers (Curso de Telecom Argentina)
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
