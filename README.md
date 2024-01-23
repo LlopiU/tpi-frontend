@@ -1,4 +1,7 @@
 --- Esta aplicacion Web esta Realizada con Next.js un framwork SSR(se renderiza en servidor) junto con Tailkwind como framework de CCS.
+
+--- Utilice el nuevo enrutamiento de netx llamado appRouter el cuall tiene unas caracteristicas resaltables respecto al anterior tipo de enrutamiento.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
