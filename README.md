@@ -1,6 +1,6 @@
 --- Esta aplicacion Web esta Realizada con Next.js un framwork SSR(se renderiza en servidor) junto con Tailkwind como framework de CCS.
 
---- Utilice el nuevo enrutamiento de netx llamado appRouter el cuall tiene unas caracteristicas resaltables respecto al anterior tipo de enrutamiento.
+--- Utilice el nuevo enrutamiento de Next llamado AppRouter el cual tiene unas caracteristicas resaltables respecto al anterior tipo de enrutamiento.
 
 --- Tambien esta en Deploy en Vercel -> (https://tpi-frontend.vercel.app/)
 
